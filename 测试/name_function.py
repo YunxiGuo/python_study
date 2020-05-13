@@ -3,5 +3,3 @@ def get_formatted_name(first='first_name', last='last_name'):
     full_name = first + ' ' + last
     return full_name.title()
 
-
-print(get_formatted_name())
