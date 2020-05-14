@@ -1,5 +1,6 @@
 from 类操作.battery import Battery
 from 类操作.car import Car
+from say_hello import test
 
 
 class ElectricCar(Car):
@@ -18,3 +19,7 @@ class ElectricCar(Car):
 my_electric_car = ElectricCar(make='audi', model='A8L', year=2020)
 my_electric_car.get_descriptive_name()
 my_electric_car.battery.describe_battery()
+print(isinstance(my_electric_car, Car))
+print(type(my_electric_car) == Car)
+# print(isinstance(Car(),ElectricCar))
+test()
